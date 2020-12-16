@@ -331,7 +331,7 @@ select {
   display: inline-block;
 }
 
-.footer:hover {
+.footer a:hover {
   box-sizing: border-box;
   border-bottom: 1px solid #ececec;
   border-bottom-color: #01bfbd;
@@ -342,4 +342,8 @@ select {
   color: #01a6a4;
   border: 1px solid #d9d9d9;
   outline: none;
+}
+
+.done-button:hover {
+  background-color: #01a6a4;
 }
